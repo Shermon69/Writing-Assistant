@@ -90,13 +90,10 @@ Run the app
 
 Start backend:
 
-bash
-Copy code
 cd backend
-npm start
+node --watch app.js
+
 Start frontend:
 
-bash
-Copy code
 cd frontend
 npm run dev
